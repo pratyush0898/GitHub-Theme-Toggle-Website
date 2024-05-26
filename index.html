@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theme Toggler</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <script defer src="./script.js"></script>
+  </head>
+
+  <body class="light">
+    <!-- Navbar -->
+
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">Home</li>
+        <li class="nav-item">About</li>
+
+        <!-- Dropdown -->
+
+        <li class="nav-item has-dropdown">
+          <a href="#">Theme</a>
+          <ul class="dropdown">
+            <li class="dropdown-item">
+              <a id="light" href="#">light</a>
+            </li>
+            <li class="dropdown-item">
+              <a id="dark" href="#">dark</a>
+            </li>
+            <li class="dropdown-item">
+              <a id="solar" href="#">solarize</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">Login</li>
+      </ul>
+    </nav>
+
+    <header>
+      <img src="./assets/github.svg" class="logo" />
+      <h1>github,<br />Code sharing platform for developers.</h1>
+
+      <p>Version control, collaboration, code sharing platform.</p>
+    </header>
+
+    <main>
+        <h3>github</h3>
+      <p>
+        Version Control Powerhouse: GitHub is a web-based platform that acts as a central hub for software development projects. It leverages the power of Git, a version control system, allowing developers to track changes in code over time. This enables them to revert to previous versions if needed, collaborate seamlessly, and maintain a clear project history.
+      </p>
+      <p>
+        Code Sharing and Collaboration: At its core, GitHub fosters collaboration among programmers. Developers can share their code by creating repositories (repos) on GitHub. These repos act like folders storing all project files and their revision history.  Multiple developers can work on the same project simultaneously, pushing their code changes and pulling updates made by others.
+      </p>
+      <p>
+        Open Source Haven:  GitHub is a haven for open-source projects. Here, developers can freely access, modify, and contribute code to existing projects. This fosters innovation and allows for community-driven development. Businesses and individuals can leverage the vast pool of open-source code available on GitHub for their own projects.
+      </p>
+
+      <h3>git</h3>
+
+      <p>
+        Imagine Git as a time machine for your code. It lets you travel back to any point in its history, see exactly what it looked like then, and even rewind if needed. This is because Git keeps track of every change you make, like a snapshot at each moment.
+      </p>
+      <p>
+        With Git, collaboration becomes a breeze. Multiple people can work on the same project simultaneously. They can share their changes and easily merge them together. No more worrying about who edited what last - Git keeps everything organized.
+      </p>
+      <p>
+        Think of Git as an invisible safety net for your code. If you ever mess something up, you can simply revert to a previous version. It also helps you understand how your project evolved over time, making it a valuable tool for tracking progress and learning from past decisions.
+      </p>
+    </main>
+  </body>
+</html>
