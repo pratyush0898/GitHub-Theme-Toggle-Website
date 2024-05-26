@@ -46,7 +46,7 @@ This project is licensed under the Apache License 2.0 (LICENSE).
 
 ## Contributing
 
-We welcome contributions to this project! Please see the [CONTRIBUTING](CONTRIBUTING.md) file (if it exists) for details on how to contribute.
+We welcome contributions to this project! Please see the [CONTRIBUTING](CONTRIBUTING.md) file for details on how to contribute.
 
 ## Additional Notes
 
