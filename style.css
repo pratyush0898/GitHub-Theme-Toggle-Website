@@ -172,6 +172,13 @@ img {
     background: var(--bg-solar);
 }
 
+.hover {
+    transition: all 799ms ease-in-out;
+}
+.hover:hover {
+    color: #e00000;
+}
+
 
 /* Logo Animation */
 
