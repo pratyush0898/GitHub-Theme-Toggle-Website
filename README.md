@@ -13,24 +13,13 @@ This is a simple website built with HTML, CSS, and JavaScript that demonstrates 
 ## Getting Started
 
 1. Clone the repository:
-
    ```bash
-   git clone https://github.com/your-username/github-theme-toggler.git
+   git clone https://github.com/pratyush0898/github-theme-toggler.git
    ```
-
-2. Install dependencies (if any):
-
-   (No dependencies are listed in this example)
 
 3. Open the project in your code editor.
 
-4. Run the website:
-
-   ```bash
-   npm start  // Assuming you're using a frontend build tool like npm or yarn
-   ```
-
-   (If you're not using a build tool, you can open `index.html` in your browser directly.)
+4. Open `index.html` in your browser directly.
 
 ## Usage
 
